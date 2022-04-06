@@ -8,9 +8,9 @@ name: Lint Code Base
 
 on:
   push:
-    branches: [ Stage ]
+    branches: [ Dev ]
   pull_request:
-    branches: [ Stage ]
+    branches: [ Dev ]
 jobs:
   run-lint:
     runs-on: ubuntu-latest
